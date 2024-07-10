@@ -40,7 +40,7 @@ describe('UsersService', () => {
     expect(user).toEqual({
       userId: 1,
       username: 'john',
-      password: 'changeme', //expect.any(String), // The password is hashed, so we just expect a string
+      password: 'changeme', //expect.any(String), // The password is hashed, so we just expect a string sdf
     });
   });
 });
